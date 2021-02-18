@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUPER TABUADA!</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Tabuada</h1>
+    </header>
+
+    <section>
+        <div>
+            <!--criação da caixinha de escolher o numero-->
+           <p>Numero: <input type="number" name="nu" id="txtn1">
+            <!--Criação do botão-->
+            <input type="button" value="Gerar Tabuada" onclick="calcular()"></p>
+
+        </div>
+        <div>
+            <!--Criação do elemento e tamanho da tabuada-->
+            <select name="Tabuada" id="celtab" size="10">
+                <!--texto que vai aparecer dentro do elemento-->
+            <option>Digite um numero acima:</option>
+            </select>
+        </div>
+    </section>
+
+    <footer>
+        <!--final da tela-->
+        <p>&copy;CursoemVideo</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
